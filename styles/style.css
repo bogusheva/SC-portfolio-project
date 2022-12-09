@@ -128,17 +128,30 @@ h2 {
 .fa-instagram:hover {
   color: var(--secondary-text-color);
 }
-.about-section {
+.content-container {
   margin: 100px auto;
   width: 100%;
 }
-.about-section-description h1 {
+.content h1 {
   font-size: 64px;
   font-family: var(--secondary-font-family);
   line-height: 1.2;
 }
-.about-section-description h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--main-font-family);
   line-height: 1.2;
+}
+.content strong {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: block;
+}
+.content span {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
 }
