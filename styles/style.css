@@ -29,7 +29,6 @@ h2 {
   line-height: 85px;
 }
 .body-container {
-  width: 90%;
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -148,6 +147,15 @@ h2 {
   font-weight: 400;
   line-height: 1.5;
 }
+.content.contacts a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content.contacts a:hover {
+  color: var(--branding-color);
+}
 .socials-links {
   gap: 33px;
 }
@@ -172,8 +180,12 @@ h2 {
 .socials-links .col:hover .fa-twitter {
   color: var(--background-color);
 }
-
-.email-link:hover a {
+.contacts .row a.repo-link {
+  font-size: 14px;
+  font-family: var(--main-font-family);
+}
+.email-link:hover a,
+.contacts .row a.repo-link:hover {
   color: var(--branding-color);
 }
 
