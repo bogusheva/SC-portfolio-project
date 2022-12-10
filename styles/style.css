@@ -29,6 +29,7 @@ h2 {
   max-width: 1160px;
   margin: 0 auto;
 }
+
 .hero {
   height: 100vh;
   flex-direction: column;
@@ -104,6 +105,9 @@ h2 {
 .nav-link:hover {
   color: var(--branding-color);
   opacity: 1;
+}
+.nav-item {
+  text-align: center;
 }
 .injuiry .text-description {
   font-size: 18px;
