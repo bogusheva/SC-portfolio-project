@@ -24,6 +24,11 @@ h2 {
   font-weight: 700;
   line-height: 85px;
 }
+.body-container {
+  width: 90%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
 .hero {
   height: 100vh;
   flex-direction: column;
